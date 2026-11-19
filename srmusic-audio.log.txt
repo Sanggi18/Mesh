@@ -1,0 +1,178 @@
+SRMusic Audio Subsystem Diagnostic Log
+Device Name: 22021211RG
+Arm: arm64v8a
+Android Version: 13
+Generated: 2026-11-19 19:39:40
+Output Route: JM6PRO (CX31993+MAX97220) [USB]
+
+--- Terminal Audio ---
+[19:38:07] ACTION_USB_DEVICE_ATTACHED received
+[19:38:16] Selected track: 'WE WILL ROCK YOU' (QUEEN)
+[19:38:16] DSD Route: DSD256 (2ch) -> CONVERT_TO_PCM @ 88200 Hz (32-bit)
+[19:38:20] Selected track: 'WE WILL ROCK YOU' (QUEEN)
+[19:38:21] USB DAC Opened: JM6PRO (CX31993+MAX97220) | UAC 2.0 | High-Speed (480 Mbps) | Max 32-bit
+[19:38:21] USB DAC Caps: rates=192000,96000,384000,44100,48000 | dsdNativeAlt=-1 | dop176k=false | dop352k=false
+[19:38:21] DSD Route: DSD256 (2ch) -> CONVERT_TO_PCM @ 192000 Hz (32-bit)
+[19:38:21] USB PCM HW: alt=3(ok=true) wire=32b(target=32,enc=4) epOut=0x1 maxPkt=384 rateBefore=true rateAfter=null clkValid=true/true verifiedRate=192000
+[19:38:21] initUsbDac SUCCESS: VID=0x3302, PID=0x33e2
+[19:38:21] playAudio START: rate=192000, bitDepth=32
+[19:38:21] SUCCESS: isPlaying=true, activeIsoTransfers=0
+[19:38:21] Bit-Perfect State : Active - JM6PRO (CX31993+MAX97220) USB Exclusive
+[19:38:25] Audio Output Route: JM6PRO (CX31993+MAX97220) [USB]
+[19:38:57] Selected track: 'LEVITATING' (DUA LIPA)
+[19:38:57] DSD Route: DSD128 (2ch) -> CONVERT_TO_PCM @ 192000 Hz (32-bit)
+
+--- Log Audio ---
+[19:38:16] 15446 15446 I : PLAYBACK_STATE songId=1000004708 title='WE WILL ROCK YOU' bits=0
+[19:38:16] 15446 15701 D : EFFECTIVE_OUTPUT_CONFIG: rate=88200 mask=12 enc=2
+[19:38:16] 15446 15701 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=88200 ch=2 enc=4
+[19:38:20] 15446 15446 I : BITPERFECT_REQUEST enabled=true
+[19:38:20] 15446 15446 I : SWITCH_START requestedApi=AUDIOTRACK bitPerfect=true force=true (previous api=AUDIOTRACK bitPerfect=false)
+[19:38:20] 15446 15446 I : PLAYBACK_STATE songId=1000004708 title='WE WILL ROCK YOU' bits=0
+[19:38:20] 15446 15446 I : SWITCH_DONE newEffectiveBackend=AUDIOTRACK requestedBitPerfect=true items=100 index=0 posMs=3341 playWhenReady=true elapsedMs=58
+[19:38:21] 15446 16046 I UsbAudioOutput: Create: fd=83 ep=0x01 rate=192000 ch=2 bits=32 maxPkt=384
+[19:38:21] 15446 16046 I UsbAudioOutput: Create: usb speed=3 -> 8000 packets/s, 80 URBs in flight
+[19:38:21] 15446 16046 I UsbAudioOutput: Start: rate=192000 ch=2 bits=32 ring=80 slots×8pkt fpmf=24.0000 feedback=one-shot
+[19:38:21] 15446 16046 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=192000 ch=2 enc=4
+[19:38:31] 15446 16052 I UsbAudioOutput: nativeWrite #3300: 1114 samples, 2869us (2.9ms), inflight=80
+[19:38:30] 15446 16052 I UsbAudioOutput: Write: 1728122 frames (~9 sec) inflight=80 fpmf=24.0000 (192000.0 Hz)
+[19:38:25] 15446 15446 D : EFFECTIVE_OUTPUT_CONFIG type=USB name=JM6PRO (CX31993+MAX97220)
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #2 after 9865 URBs: USB queue ran empty
+[19:38:31] 15446 16052 I UsbAudioOutput: nativeWrite #3400: 1114 samples, 948us (0.9ms), inflight=3
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #4 after 9868 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #6 after 9871 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #8 after 9874 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #10 after 9877 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #12 after 9880 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #14 after 9882 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #16 after 9885 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #18 after 9888 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #20 after 9891 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #22 after 9894 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #24 after 9897 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #26 after 9900 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #28 after 9903 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #30 after 9906 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #32 after 9909 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #34 after 9912 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #36 after 9914 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #38 after 9917 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #40 after 9920 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #42 after 9923 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #44 after 9926 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #46 after 9929 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #48 after 9932 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #50 after 9935 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #52 after 9938 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #54 after 9941 URBs: USB queue ran empty
+[19:38:31] 15446 16052 W UsbAudioOutput: Underrun #56 after 9943 URBs: USB queue ran empty
+[19:38:33] 15446 16052 I UsbAudioOutput: Write: 2304348 frames (~12 sec) inflight=80 fpmf=24.0000 (192000.0 Hz)
+[19:38:33] 15446 16052 I UsbAudioOutput: nativeWrite #4200: 1114 samples, 174us (0.2ms), inflight=28
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #58 after 12210 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #60 after 12213 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #62 after 12216 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #64 after 12219 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #66 after 12222 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #68 after 12225 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #70 after 12228 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #72 after 12231 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #74 after 12234 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #76 after 12236 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #78 after 12239 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #80 after 12242 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #82 after 12245 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #84 after 12248 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #86 after 12251 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #88 after 12254 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #90 after 12257 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #92 after 12260 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #94 after 12263 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #96 after 12265 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #98 after 12268 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #100 after 12271 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #102 after 12274 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #104 after 12277 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #106 after 12280 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #108 after 12283 URBs: USB queue ran empty
+[19:38:33] 15446 16052 W UsbAudioOutput: Underrun #110 after 12286 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #112 after 12289 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #114 after 12292 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #116 after 12294 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #118 after 12297 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #120 after 12303 URBs: USB queue ran empty
+[19:38:34] 15446 16052 I UsbAudioOutput: nativeWrite #4500: 1114 samples, 2496us (2.5ms), inflight=80
+[19:38:34] 15446 16052 I UsbAudioOutput: Write: 2496052 frames (~13 sec) inflight=80 fpmf=24.0000 (192000.0 Hz)
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #122 after 13087 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #124 after 13090 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #126 after 13093 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #128 after 13096 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #130 after 13098 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #132 after 13101 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #134 after 13104 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #136 after 13107 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #138 after 13110 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #140 after 13113 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #142 after 13116 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #144 after 13119 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #146 after 13122 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #148 after 13125 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #150 after 13127 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #152 after 13130 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #154 after 13133 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #156 after 13136 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #158 after 13139 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #160 after 13142 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #162 after 13145 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #164 after 13148 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #166 after 13151 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #168 after 13154 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #170 after 13157 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #172 after 13159 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #174 after 13162 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #176 after 13165 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #178 after 13168 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #180 after 13171 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #182 after 13174 URBs: USB queue ran empty
+[19:38:34] 15446 16052 W UsbAudioOutput: Underrun #184 after 13177 URBs: USB queue ran empty
+[19:38:52] 15446 16052 I UsbAudioOutput: nativeWrite #10700: 1114 samples, 2912us (2.9ms), inflight=80
+[19:38:52] 15446 16052 I UsbAudioOutput: Write: 5952296 frames (~31 sec) inflight=80 fpmf=24.0000 (192000.0 Hz)
+[19:38:52] 15446 16052 W UsbAudioOutput: Underrun #186 after 31187 URBs: USB queue ran empty
+[19:38:52] 15446 16052 W UsbAudioOutput: Underrun #188 after 31190 URBs: USB queue ran empty
+[19:38:53] 15446 16052 W UsbAudioOutput: Underrun #190 after 31193 URBs: USB queue ran empty
+[19:38:53] 15446 16052 W UsbAudioOutput: Underrun #192 after 31196 URBs: USB queue ran empty
+[19:38:53] 15446 16052 W UsbAudioOutput: Underrun #194 after 31198 URBs: USB queue ran empty
+[19:38:53] 15446 16052 W UsbAudioOutput: Underrun #196 after 31201 URBs: USB queue ran empty
+[19:38:53] 15446 16052 W UsbAudioOutput: Underrun #198 after 31204 URBs: USB queue ran empty
+[19:38:53] 15446 16052 W UsbAudioOutput: Underrun #200 after 31207 URBs: USB queue ran empty
+[19:38:57] 15446 16052 I UsbAudioOutput: nativeWrite #12400: 1114 samples, 1939us (1.9ms), inflight=80
+[19:38:57] 15446 16052 I UsbAudioOutput: Write: 6912487 frames (~36 sec) inflight=80 fpmf=24.0000 (192000.0 Hz)
+[19:38:57] 15446 15446 I : PLAYBACK_STATE songId=1000004699 title='LEVITATING' bits=0
+[19:38:57] 15446 16046 I UsbAudioOutput: Flush: frameAccumulator, residual, framesWritten, and framesReaped reset
+[19:38:57] 15446 16046 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=192000 ch=2 enc=4
+[19:38:58] 15446 16052 W UsbAudioOutput: Underrun #202 after 36127 URBs: USB queue ran empty
+[19:39:32] 15446 16052 I UsbAudioOutput: nativeWrite #18300: 2228 samples, 5952us (6.0ms), inflight=80
+[19:39:32] 15446 16052 I UsbAudioOutput: Write: 6529080 frames (~34 sec) inflight=80 fpmf=24.0000 (192000.0 Hz)
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #204 after 70417 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #206 after 70422 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #208 after 70428 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #210 after 70434 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #212 after 70440 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #214 after 70446 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #216 after 70451 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #218 after 70457 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #220 after 70463 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #222 after 70469 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #224 after 70475 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #226 after 70480 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #228 after 70486 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #230 after 70492 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #232 after 70498 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #234 after 70504 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #236 after 70509 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #238 after 70515 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #240 after 70521 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #242 after 70527 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #244 after 70533 URBs: USB queue ran empty
+[19:39:32] 15446 16052 W UsbAudioOutput: Underrun #246 after 70538 URBs: USB queue ran empty
+[19:39:38] 15446 16052 I UsbAudioOutput: nativeWrite #19400: 2230 samples, 6105us (6.1ms), inflight=80
+[19:39:38] 15446 16052 I UsbAudioOutput: Write: 7680418 frames (~40 sec) inflight=80 fpmf=24.0000 (192000.0 Hz)
