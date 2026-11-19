@@ -1,0 +1,297 @@
+SRMusic Audio Subsystem Diagnostic Log
+Device Name: 22021211RG
+Arm: arm64v8a
+Android Version: 13
+Generated: 2026-11-19 19:58:59
+Output Route: JM6PRO (CX31993+MAX97220) [USB]
+
+--- Terminal Audio ---
+[19:53:39] ACTION_USB_DEVICE_ATTACHED received
+[19:53:48] Selected track: 'WE WILL ROCK YOU' (QUEEN)
+[19:53:48] DSD Route: DSD256 (2ch) -> CONVERT_TO_PCM @ 88200 Hz (32-bit)
+[19:53:52] Selected track: 'WE WILL ROCK YOU' (QUEEN)
+[19:53:52] USB DAC Opened: JM6PRO (CX31993+MAX97220) | UAC 2.0 | High-Speed (480 Mbps) | Max 32-bit
+[19:53:52] USB DAC Caps: rates=192000,96000,384000,44100,48000 | dsdNativeAlt=-1 | dop176k=false | dop352k=false
+[19:53:52] DSD Route: DSD256 (2ch) -> CONVERT_TO_PCM @ 192000 Hz (32-bit)
+[19:53:52] USB PCM HW: alt=3(ok=true) wire=32b(target=32,enc=4) epOut=0x1 maxPkt=384 rateBefore=true rateAfter=null clkValid=true/true verifiedRate=192000
+[19:53:52] initUsbDac SUCCESS: VID=0x3302, PID=0x33e2
+[19:53:52] playAudio START: rate=192000, bitDepth=32
+[19:53:52] SUCCESS: isPlaying=true, activeIsoTransfers=0
+[19:53:52] Bit-Perfect State : Active - JM6PRO (CX31993+MAX97220) USB Exclusive
+[19:53:58] Audio Output Route: JM6PRO (CX31993+MAX97220) [USB]
+[19:54:34] Selected track: 'LEVITATING' (DUA LIPA)
+[19:54:34] DSD Route: DSD128 (2ch) -> CONVERT_TO_PCM @ 192000 Hz (32-bit)
+[19:55:15] DSD Output Mode changed to Native DSD
+[19:55:15] Selected track: 'LEVITATING' (DUA LIPA)
+[19:55:15] USB DAC Opened: JM6PRO (CX31993+MAX97220) | UAC 2.0 | High-Speed (480 Mbps) | Max 32-bit
+[19:55:15] USB DAC Caps: rates=192000,96000,384000,44100,48000 | dsdNativeAlt=-1 | dop176k=false | dop352k=false
+[19:55:15] DSD Route: DSD128 (2ch) -> CONVERT_TO_PCM @ 192000 Hz (32-bit)
+[19:55:16] USB PCM HW: alt=3(ok=true) wire=32b(target=32,enc=4) epOut=0x1 maxPkt=384 rateBefore=true rateAfter=null clkValid=true/true verifiedRate=192000
+[19:55:16] initUsbDac SUCCESS: VID=0x3302, PID=0x33e2
+[19:55:16] playAudio START: rate=192000, bitDepth=32
+[19:55:16] SUCCESS: isPlaying=true, activeIsoTransfers=0
+[19:55:16] Bit-Perfect State : Active - JM6PRO (CX31993+MAX97220) USB Exclusive
+[19:55:34] DSD Output Mode changed to DoP
+[19:55:34] Selected track: 'LEVITATING' (DUA LIPA)
+[19:55:34] USB DAC Opened: JM6PRO (CX31993+MAX97220) | UAC 2.0 | High-Speed (480 Mbps) | Max 32-bit
+[19:55:34] USB DAC Caps: rates=192000,96000,384000,44100,48000 | dsdNativeAlt=-1 | dop176k=false | dop352k=false
+[19:55:34] DSD Route: DSD128 (2ch) -> CONVERT_TO_PCM @ 192000 Hz (32-bit)
+[19:55:34] USB PCM HW: alt=3(ok=true) wire=32b(target=32,enc=4) epOut=0x1 maxPkt=384 rateBefore=true rateAfter=null clkValid=true/true verifiedRate=192000
+[19:55:34] initUsbDac SUCCESS: VID=0x3302, PID=0x33e2
+[19:55:34] playAudio START: rate=192000, bitDepth=32
+[19:55:34] SUCCESS: isPlaying=true, activeIsoTransfers=0
+[19:55:34] Bit-Perfect State : Active - JM6PRO (CX31993+MAX97220) USB Exclusive
+[19:55:54] DSD Output Mode changed to PCM
+[19:55:54] Selected track: 'LEVITATING' (DUA LIPA)
+[19:55:54] USB DAC Opened: JM6PRO (CX31993+MAX97220) | UAC 2.0 | High-Speed (480 Mbps) | Max 32-bit
+[19:55:54] USB DAC Caps: rates=192000,96000,384000,44100,48000 | dsdNativeAlt=-1 | dop176k=false | dop352k=false
+[19:55:54] DSD Route: DSD128 (2ch) -> CONVERT_TO_PCM @ 192000 Hz (32-bit)
+[19:55:54] USB PCM HW: alt=3(ok=true) wire=32b(target=32,enc=4) epOut=0x1 maxPkt=384 rateBefore=true rateAfter=null clkValid=true/true verifiedRate=192000
+[19:55:54] initUsbDac SUCCESS: VID=0x3302, PID=0x33e2
+[19:55:54] playAudio START: rate=192000, bitDepth=32
+[19:55:54] SUCCESS: isPlaying=true, activeIsoTransfers=0
+[19:55:54] Bit-Perfect State : Active - JM6PRO (CX31993+MAX97220) USB Exclusive
+[19:56:04] DSD Output Mode changed to Auto
+[19:56:04] Selected track: 'LEVITATING' (DUA LIPA)
+[19:56:04] USB DAC Opened: JM6PRO (CX31993+MAX97220) | UAC 2.0 | High-Speed (480 Mbps) | Max 32-bit
+[19:56:04] USB DAC Caps: rates=192000,96000,384000,44100,48000 | dsdNativeAlt=-1 | dop176k=false | dop352k=false
+[19:56:04] DSD Route: DSD128 (2ch) -> CONVERT_TO_PCM @ 192000 Hz (32-bit)
+[19:56:04] USB PCM HW: alt=3(ok=true) wire=32b(target=32,enc=4) epOut=0x1 maxPkt=384 rateBefore=true rateAfter=null clkValid=true/true verifiedRate=192000
+[19:56:04] initUsbDac SUCCESS: VID=0x3302, PID=0x33e2
+[19:56:04] playAudio START: rate=192000, bitDepth=32
+[19:56:04] SUCCESS: isPlaying=true, activeIsoTransfers=0
+[19:56:04] Bit-Perfect State : Active - JM6PRO (CX31993+MAX97220) USB Exclusive
+[19:56:10] Selected track: 'WE WILL ROCK YOU' (QUEEN)
+[19:56:10] DSD Route: DSD256 (2ch) -> CONVERT_TO_PCM @ 192000 Hz (32-bit)
+[19:58:11] USB PCM HW: alt=3(ok=true) wire=32b(target=32,enc=4) epOut=0x1 maxPkt=384 rateBefore=true rateAfter=null clkValid=true/true verifiedRate=44100
+[19:58:11] initUsbDac SUCCESS: VID=0x3302, PID=0x33e2
+[19:58:11] playAudio START: rate=44100, bitDepth=32
+[19:58:11] SUCCESS: isPlaying=true, activeIsoTransfers=0
+[19:58:11] Bit-Perfect State : Active - JM6PRO (CX31993+MAX97220) USB Exclusive
+[19:58:11] Selected track: 'Romantic Homicide' (d4vd)
+[19:58:12] USB PCM HW: alt=2(ok=true) wire=24b(target=24,enc=4) epOut=0x1 maxPkt=288 rateBefore=true rateAfter=null clkValid=true/true verifiedRate=44100
+[19:58:12] initUsbDac SUCCESS: VID=0x3302, PID=0x33e2
+[19:58:12] playAudio START: rate=44100, bitDepth=24
+[19:58:12] SUCCESS: isPlaying=true, activeIsoTransfers=0
+[19:58:12] Bit-Perfect State : Active - JM6PRO (CX31993+MAX97220) USB Exclusive
+[19:58:32] Selected track: 'Romantic Homicide' (d4vd)
+[19:58:32] USB PCM HW: alt=1(ok=true) wire=16b(target=16,enc=4) epOut=0x1 maxPkt=192 rateBefore=true rateAfter=null clkValid=true/true verifiedRate=48000
+[19:58:32] initUsbDac SUCCESS: VID=0x3302, PID=0x33e2
+[19:58:32] playAudio START: rate=48000, bitDepth=16
+[19:58:32] SUCCESS: isPlaying=true, activeIsoTransfers=0
+[19:58:32] Bit-Perfect State : Active - JM6PRO (CX31993+MAX97220) USB Exclusive
+[19:58:38] Selected track: 'Romantic Homicide' (d4vd)
+[19:58:38] USB PCM HW: alt=1(ok=true) wire=16b(target=16,enc=4) epOut=0x1 maxPkt=192 rateBefore=true rateAfter=null clkValid=true/true verifiedRate=48000
+[19:58:38] initUsbDac SUCCESS: VID=0x3302, PID=0x33e2
+[19:58:38] playAudio START: rate=48000, bitDepth=16
+[19:58:38] SUCCESS: isPlaying=true, activeIsoTransfers=0
+[19:58:38] Bit-Perfect State : Active - JM6PRO (CX31993+MAX97220) USB Exclusive
+[19:58:40] Selected track: 'LEVITATING' (DUA LIPA)
+[19:58:40] DSD Route: DSD128 (2ch) -> CONVERT_TO_PCM @ 192000 Hz (32-bit)
+[19:58:40] USB PCM HW: alt=3(ok=true) wire=32b(target=32,enc=4) epOut=0x1 maxPkt=384 rateBefore=true rateAfter=null clkValid=true/true verifiedRate=192000
+[19:58:40] initUsbDac SUCCESS: VID=0x3302, PID=0x33e2
+[19:58:40] playAudio START: rate=192000, bitDepth=32
+[19:58:40] SUCCESS: isPlaying=true, activeIsoTransfers=0
+[19:58:40] Bit-Perfect State : Active - JM6PRO (CX31993+MAX97220) USB Exclusive
+[19:58:41] Selected track: 'Mayonaka No Door / Stay With Me [真夜中のドア]' (Miki Matsubara)
+[19:58:41] USB PCM HW: alt=1(ok=true) wire=16b(target=16,enc=4) epOut=0x1 maxPkt=192 rateBefore=true rateAfter=null clkValid=true/true verifiedRate=44100
+[19:58:41] initUsbDac SUCCESS: VID=0x3302, PID=0x33e2
+[19:58:41] playAudio START: rate=44100, bitDepth=16
+[19:58:41] SUCCESS: isPlaying=true, activeIsoTransfers=0
+[19:58:41] Bit-Perfect State : Active - JM6PRO (CX31993+MAX97220) USB Exclusive
+[19:58:44] Selected track: 'Mayonaka No Door / Stay With Me [真夜中のドア] (Original Club Mix by D.O.I.)' (Miki Matsubara)
+[19:58:45] Selected track: 'KILLA' (YOASOBI)
+[19:58:45] USB PCM HW: alt=1(ok=true) wire=16b(target=16,enc=4) epOut=0x1 maxPkt=192 rateBefore=true rateAfter=null clkValid=true/true verifiedRate=48000
+[19:58:45] initUsbDac SUCCESS: VID=0x3302, PID=0x33e2
+[19:58:45] playAudio START: rate=48000, bitDepth=16
+[19:58:45] SUCCESS: isPlaying=true, activeIsoTransfers=0
+[19:58:45] Bit-Perfect State : Active - JM6PRO (CX31993+MAX97220) USB Exclusive
+
+--- Log Audio ---
+[19:53:48] 20709 20709 I : PLAYBACK_STATE songId=1000004708 title='WE WILL ROCK YOU' bits=0
+[19:53:48] 20709 20955 D : EFFECTIVE_OUTPUT_CONFIG: rate=88200 mask=12 enc=2
+[19:53:48] 20709 20955 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=88200 ch=2 enc=4
+[19:53:52] 20709 20709 I : BITPERFECT_REQUEST enabled=true
+[19:53:52] 20709 20709 I : SWITCH_START requestedApi=AUDIOTRACK bitPerfect=true force=true (previous api=AUDIOTRACK bitPerfect=false)
+[19:53:52] 20709 20709 I : PLAYBACK_STATE songId=1000004708 title='WE WILL ROCK YOU' bits=0
+[19:53:52] 20709 20709 I : SWITCH_DONE newEffectiveBackend=AUDIOTRACK requestedBitPerfect=true items=100 index=0 posMs=2216 playWhenReady=true elapsedMs=70
+[19:53:52] 20709 22004 I UsbAudioOutput: Create: fd=122 ep=0x01 rate=192000 ch=2 bits=32 maxPkt=384
+[19:53:52] 20709 22004 I UsbAudioOutput: Create: usb speed=3 -> 8000 packets/s, 80 URBs in flight
+[19:53:52] 20709 22004 I UsbAudioOutput: SilenceMode set to 0
+[19:53:52] 20709 22004 I UsbAudioOutput: Start: rate=192000 ch=2 bits=32 ring=80 slots×8pkt fpmf=24.0000 feedback=one-shot
+[19:53:52] 20709 22004 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=192000 ch=2 enc=4
+[19:54:34] 20709 22010 I UsbAudioOutput: nativeWrite #14500: 1114 samples, 2963us (3.0ms), inflight=80
+[19:54:34] 20709 22010 I UsbAudioOutput: Write: 8064383 frames (~42 sec) inflight=80 fpmf=24.0000 (192000.0 Hz)
+[19:53:58] 20709 20709 D : EFFECTIVE_OUTPUT_CONFIG type=USB name=JM6PRO (CX31993+MAX97220)
+[19:54:34] 20709 20709 I : PLAYBACK_STATE songId=1000004699 title='LEVITATING' bits=0
+[19:54:34] 20709 22004 I UsbAudioOutput: Flush: frameAccumulator, residual, framesWritten, and framesReaped reset
+[19:54:34] 20709 22004 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=192000 ch=2 enc=4
+[19:54:34] 20709 22010 W UsbAudioOutput: Underrun #2 after 42298 URBs: USB queue ran empty
+[19:55:15] 20709 22010 I UsbAudioOutput: nativeWrite #21600: 2228 samples, 5840us (5.8ms), inflight=80
+[19:55:14] 20709 22010 I UsbAudioOutput: Write: 7680418 frames (~40 sec) inflight=80 fpmf=24.0000 (192000.0 Hz)
+[19:55:15] 20709 20709 I : SWITCH_START requestedApi=AUDIOTRACK bitPerfect=true force=true (previous api=AUDIOTRACK bitPerfect=true)
+[19:55:15] 20709 22004 I UsbAudioOutput: Stop: 7837571 frames, 79 URBs in flight
+[19:55:15] 20709 22004 I UsbAudioOutput: drainAllUrbs: draining 79 URBs (feedback=idle)...
+[19:55:15] 20709 22004 I UsbAudioOutput: drainAllUrbs: drained 79/79, ring reset
+[19:55:15] 20709 22004 I UsbAudioOutput: Destroy: 7837571 frames total
+[19:55:15] 20709 22004 I UsbAudioOutput: USBDEVFS_GETDRIVER iface=0 driver=snd-usb-audio
+[19:55:15] 20709 22004 I UsbAudioOutput: USBDEVFS_GETDRIVER iface=1 driver=snd-usb-audio
+[19:55:15] 20709 20709 I : PLAYBACK_STATE songId=1000004699 title='LEVITATING' bits=0
+[19:55:15] 20709 20709 I : SWITCH_DONE newEffectiveBackend=AUDIOTRACK requestedBitPerfect=true items=100 index=4 posMs=40732 playWhenReady=true elapsedMs=204
+[19:55:15] 20709 22112 I UsbAudioOutput: Create: fd=121 ep=0x01 rate=192000 ch=2 bits=32 maxPkt=384
+[19:55:15] 20709 22112 I UsbAudioOutput: Create: usb speed=3 -> 8000 packets/s, 80 URBs in flight
+[19:55:16] 20709 22112 I UsbAudioOutput: SilenceMode set to 0
+[19:55:16] 20709 22112 I UsbAudioOutput: Start: rate=192000 ch=2 bits=32 ring=80 slots×8pkt fpmf=24.0000 feedback=one-shot
+[19:55:16] 20709 22112 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=192000 ch=2 enc=4
+[19:55:34] 20709 22115 I UsbAudioOutput: nativeWrite #3100: 2228 samples, 5756us (5.8ms), inflight=80
+[19:55:34] 20709 22115 I UsbAudioOutput: Write: 3456244 frames (~18 sec) inflight=80 fpmf=24.0000 (192000.0 Hz)
+[19:55:34] 20709 20709 I : SWITCH_START requestedApi=AUDIOTRACK bitPerfect=true force=true (previous api=AUDIOTRACK bitPerfect=true)
+[19:55:34] 20709 22112 I UsbAudioOutput: Stop: 3529805 frames, 80 URBs in flight
+[19:55:34] 20709 22112 I UsbAudioOutput: drainAllUrbs: draining 80 URBs (feedback=idle)...
+[19:55:34] 20709 22112 I UsbAudioOutput: drainAllUrbs: drained 80/80, ring reset
+[19:55:34] 20709 22112 I UsbAudioOutput: Destroy: 3529805 frames total
+[19:55:34] 20709 22112 I UsbAudioOutput: USBDEVFS_GETDRIVER iface=0 driver=snd-usb-audio
+[19:55:34] 20709 22112 I UsbAudioOutput: USBDEVFS_GETDRIVER iface=1 driver=snd-usb-audio
+[19:55:34] 20709 20709 I : PLAYBACK_STATE songId=1000004699 title='LEVITATING' bits=0
+[19:55:34] 20709 20709 I : SWITCH_DONE newEffectiveBackend=AUDIOTRACK requestedBitPerfect=true items=100 index=4 posMs=59035 playWhenReady=true elapsedMs=207
+[19:55:34] 20709 22124 I UsbAudioOutput: Create: fd=132 ep=0x01 rate=192000 ch=2 bits=32 maxPkt=384
+[19:55:34] 20709 22124 I UsbAudioOutput: Create: usb speed=3 -> 8000 packets/s, 80 URBs in flight
+[19:55:34] 20709 22124 I UsbAudioOutput: SilenceMode set to 0
+[19:55:34] 20709 22124 I UsbAudioOutput: Start: rate=192000 ch=2 bits=32 ring=80 slots×8pkt fpmf=24.0000 feedback=one-shot
+[19:55:34] 20709 22124 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=192000 ch=2 enc=4
+[19:55:53] 20709 22127 I UsbAudioOutput: nativeWrite #3300: 2230 samples, 5796us (5.8ms), inflight=80
+[19:55:53] 20709 22127 I UsbAudioOutput: Write: 3649062 frames (~19 sec) inflight=80 fpmf=24.0000 (192000.0 Hz)
+[19:55:54] 20709 20709 I : SWITCH_START requestedApi=AUDIOTRACK bitPerfect=true force=true (previous api=AUDIOTRACK bitPerfect=true)
+[19:55:54] 20709 22124 I UsbAudioOutput: Stop: 3738227 frames, 80 URBs in flight
+[19:55:54] 20709 22124 I UsbAudioOutput: drainAllUrbs: draining 80 URBs (feedback=idle)...
+[19:55:54] 20709 22124 I UsbAudioOutput: drainAllUrbs: drained 80/80, ring reset
+[19:55:54] 20709 22124 I UsbAudioOutput: Destroy: 3738227 frames total
+[19:55:54] 20709 22124 I UsbAudioOutput: USBDEVFS_GETDRIVER iface=0 driver=snd-usb-audio
+[19:55:54] 20709 22124 I UsbAudioOutput: USBDEVFS_GETDRIVER iface=1 driver=snd-usb-audio
+[19:55:54] 20709 20709 I : PLAYBACK_STATE songId=1000004699 title='LEVITATING' bits=0
+[19:55:54] 20709 20709 I : SWITCH_DONE newEffectiveBackend=AUDIOTRACK requestedBitPerfect=true items=100 index=4 posMs=78420 playWhenReady=true elapsedMs=197
+[19:55:54] 20709 22141 I UsbAudioOutput: Create: fd=78 ep=0x01 rate=192000 ch=2 bits=32 maxPkt=384
+[19:55:54] 20709 22141 I UsbAudioOutput: Create: usb speed=3 -> 8000 packets/s, 80 URBs in flight
+[19:55:54] 20709 22141 I UsbAudioOutput: SilenceMode set to 0
+[19:55:54] 20709 22141 I UsbAudioOutput: Start: rate=192000 ch=2 bits=32 ring=80 slots×8pkt fpmf=24.0000 feedback=one-shot
+[19:55:54] 20709 22141 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=192000 ch=2 enc=4
+[19:56:03] 20709 22144 I UsbAudioOutput: nativeWrite #1600: 2230 samples, 4990us (5.0ms), inflight=80
+[19:56:03] 20709 22144 I UsbAudioOutput: Write: 1728679 frames (~9 sec) inflight=80 fpmf=24.0000 (192000.0 Hz)
+[19:56:04] 20709 20709 I : SWITCH_START requestedApi=AUDIOTRACK bitPerfect=true force=true (previous api=AUDIOTRACK bitPerfect=true)
+[19:56:04] 20709 22141 I UsbAudioOutput: Stop: 1850166 frames, 80 URBs in flight
+[19:56:04] 20709 22141 I UsbAudioOutput: drainAllUrbs: draining 80 URBs (feedback=idle)...
+[19:56:04] 20709 22141 I UsbAudioOutput: drainAllUrbs: drained 80/80, ring reset
+[19:56:04] 20709 22141 I UsbAudioOutput: Destroy: 1850166 frames total
+[19:56:04] 20709 22141 I UsbAudioOutput: USBDEVFS_GETDRIVER iface=0 driver=snd-usb-audio
+[19:56:04] 20709 22141 I UsbAudioOutput: USBDEVFS_GETDRIVER iface=1 driver=snd-usb-audio
+[19:56:04] 20709 20709 I : PLAYBACK_STATE songId=1000004699 title='LEVITATING' bits=0
+[19:56:04] 20709 20709 I : SWITCH_DONE newEffectiveBackend=AUDIOTRACK requestedBitPerfect=true items=100 index=4 posMs=87978 playWhenReady=true elapsedMs=188
+[19:56:04] 20709 22171 I UsbAudioOutput: Create: fd=141 ep=0x01 rate=192000 ch=2 bits=32 maxPkt=384
+[19:56:04] 20709 22171 I UsbAudioOutput: Create: usb speed=3 -> 8000 packets/s, 80 URBs in flight
+[19:56:04] 20709 22171 I UsbAudioOutput: SilenceMode set to 0
+[19:56:04] 20709 22171 I UsbAudioOutput: Start: rate=192000 ch=2 bits=32 ring=80 slots×8pkt fpmf=24.0000 feedback=one-shot
+[19:56:04] 20709 22171 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=192000 ch=2 enc=4
+[19:56:10] 20709 22174 I UsbAudioOutput: nativeWrite #1000: 2230 samples, 4959us (5.0ms), inflight=80
+[19:56:09] 20709 22174 I UsbAudioOutput: Write: 960749 frames (~5 sec) inflight=80 fpmf=24.0000 (192000.0 Hz)
+[19:56:10] 20709 20709 I : PLAYBACK_STATE songId=1000004708 title='WE WILL ROCK YOU' bits=1
+[19:56:10] 20709 22171 I UsbAudioOutput: Flush: frameAccumulator, residual, framesWritten, and framesReaped reset
+[19:56:10] 20709 22171 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=192000 ch=2 enc=4
+[19:56:10] 20709 22174 W UsbAudioOutput: Underrun #4 after 5984 URBs: USB queue ran empty
+[19:58:11] 20709 22174 I UsbAudioOutput: nativeWrite #42700: 1114 samples, 2948us (2.9ms), inflight=80
+[19:58:11] 20709 22174 I UsbAudioOutput: Write: 23232401 frames (~121 sec) inflight=80 fpmf=24.0000 (192000.0 Hz)
+[19:58:11] 20709 22171 I UsbAudioOutput: Flush: frameAccumulator, residual, framesWritten, and framesReaped reset
+[19:58:11] 20709 22171 I UsbAudioOutput: Stop: 0 frames, 80 URBs in flight
+[19:58:11] 20709 22171 I UsbAudioOutput: drainAllUrbs: draining 80 URBs (feedback=idle)...
+[19:58:11] 20709 22171 I UsbAudioOutput: drainAllUrbs: drained 80/80, ring reset
+[19:58:11] 20709 22171 I UsbAudioOutput: Destroy: 0 frames total
+[19:58:11] 20709 22171 I UsbAudioOutput: Create: fd=141 ep=0x01 rate=44100 ch=2 bits=32 maxPkt=384
+[19:58:11] 20709 22171 I UsbAudioOutput: Create: usb speed=3 -> 8000 packets/s, 80 URBs in flight
+[19:58:11] 20709 22171 I UsbAudioOutput: SilenceMode set to 0
+[19:58:11] 20709 22171 I UsbAudioOutput: Start: rate=44100 ch=2 bits=32 ring=80 slots×8pkt fpmf=5.5125 feedback=one-shot
+[19:58:11] 20709 22171 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=44100 ch=2 enc=4
+[19:58:12] 20709 22684 I UsbAudioOutput: nativeWrite #11: 1764 samples, 19517us (19.5ms), inflight=80
+[19:58:11] 20709 22684 I UsbAudioOutput: Write: 882 frames (~0 sec) inflight=20 fpmf=5.5125 (44100.0 Hz)
+[19:58:11] 20709 20709 I : PLAYBACK_STATE songId=1000004700 title='Romantic Homicide' bits=0
+[19:58:12] 20709 22171 I UsbAudioOutput: Stop: 9702 frames, 80 URBs in flight
+[19:58:12] 20709 22171 I UsbAudioOutput: drainAllUrbs: draining 80 URBs (feedback=idle)...
+[19:58:12] 20709 22171 I UsbAudioOutput: drainAllUrbs: drained 80/80, ring reset
+[19:58:12] 20709 22171 I UsbAudioOutput: Destroy: 10584 frames total
+[19:58:12] 20709 22171 I UsbAudioOutput: Create: fd=141 ep=0x01 rate=44100 ch=2 bits=24 maxPkt=288
+[19:58:12] 20709 22171 I UsbAudioOutput: Create: usb speed=3 -> 8000 packets/s, 80 URBs in flight
+[19:58:12] 20709 22171 I UsbAudioOutput: SilenceMode set to 0
+[19:58:12] 20709 22171 I UsbAudioOutput: Start: rate=44100 ch=2 bits=24 ring=80 slots×8pkt fpmf=5.5125 feedback=one-shot
+[19:58:32] 20709 22694 I UsbAudioOutput: nativeWrite #1001: 1764 samples, 20674us (20.7ms), inflight=79
+[19:58:32] 20709 22694 I UsbAudioOutput: Write: 882000 frames (~20 sec) inflight=80 fpmf=5.5125 (44100.0 Hz)
+[19:58:32] 20709 20709 I : PLAYBACK_STATE songId=1000004701 title='Romantic Homicide' bits=0
+[19:58:32] 20709 22171 I UsbAudioOutput: Flush: frameAccumulator, residual, framesWritten, and framesReaped reset
+[19:58:32] 20709 22171 I UsbAudioOutput: Stop: 0 frames, 79 URBs in flight
+[19:58:32] 20709 22171 I UsbAudioOutput: drainAllUrbs: draining 79 URBs (feedback=idle)...
+[19:58:32] 20709 22171 I UsbAudioOutput: drainAllUrbs: drained 79/79, ring reset
+[19:58:32] 20709 22171 I UsbAudioOutput: Destroy: 0 frames total
+[19:58:32] 20709 22171 I UsbAudioOutput: Create: fd=141 ep=0x01 rate=48000 ch=2 bits=16 maxPkt=192
+[19:58:32] 20709 22171 I UsbAudioOutput: Create: usb speed=3 -> 8000 packets/s, 80 URBs in flight
+[19:58:32] 20709 22171 I UsbAudioOutput: SilenceMode set to 0
+[19:58:32] 20709 22171 I UsbAudioOutput: Start: rate=48000 ch=2 bits=16 ring=80 slots×8pkt fpmf=6.0000 feedback=one-shot
+[19:58:32] 20709 22171 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=48000 ch=2 enc=4
+[19:58:38] 20709 22805 I UsbAudioOutput: nativeWrite #147: 4096 samples, 42772us (42.8ms), inflight=80
+[19:58:38] 20709 22805 I UsbAudioOutput: Write: 288768 frames (~6 sec) inflight=80 fpmf=6.0000 (48000.0 Hz)
+[19:58:38] 20709 22171 I UsbAudioOutput: Flush: frameAccumulator, residual, framesWritten, and framesReaped reset
+[19:58:38] 20709 20709 I : PLAYBACK_STATE songId=1000004702 title='Romantic Homicide' bits=0
+[19:58:38] 20709 22805 I UsbAudioOutput: nativeWrite #148: 4096 samples, 41599us (41.6ms), inflight=80
+[19:58:38] 20709 22171 I UsbAudioOutput: Flush: frameAccumulator, residual, framesWritten, and framesReaped reset
+[19:58:38] 20709 22171 I UsbAudioOutput: Stop: 0 frames, 80 URBs in flight
+[19:58:38] 20709 22171 I UsbAudioOutput: drainAllUrbs: draining 80 URBs (feedback=idle)...
+[19:58:38] 20709 22171 I UsbAudioOutput: drainAllUrbs: drained 80/80, ring reset
+[19:58:38] 20709 22171 I UsbAudioOutput: Destroy: 0 frames total
+[19:58:38] 20709 22171 I UsbAudioOutput: Create: fd=141 ep=0x01 rate=48000 ch=6 bits=16 maxPkt=192
+[19:58:38] 20709 22171 I UsbAudioOutput: Create: usb speed=3 -> 8000 packets/s, 80 URBs in flight
+[19:58:38] 20709 22171 I UsbAudioOutput: SilenceMode set to 0
+[19:58:38] 20709 22171 I UsbAudioOutput: Start: rate=48000 ch=6 bits=16 ring=80 slots×8pkt fpmf=6.0000 feedback=one-shot
+[19:58:38] 20709 22171 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=48000 ch=6 enc=4
+[19:58:40] 20709 22828 I UsbAudioOutput: nativeWrite #48: 9216 samples, 32958us (33.0ms), inflight=79
+[19:58:39] 20709 22828 I UsbAudioOutput: Write: 49152 frames (~1 sec) inflight=80 fpmf=6.0000 (48000.0 Hz)
+[19:58:40] 20709 20709 I : PLAYBACK_STATE songId=1000004699 title='LEVITATING' bits=1
+[19:58:40] 20709 22171 I UsbAudioOutput: Flush: frameAccumulator, residual, framesWritten, and framesReaped reset
+[19:58:40] 20709 22171 I UsbAudioOutput: Stop: 0 frames, 79 URBs in flight
+[19:58:40] 20709 22171 I UsbAudioOutput: drainAllUrbs: draining 79 URBs (feedback=idle)...
+[19:58:40] 20709 22171 I UsbAudioOutput: drainAllUrbs: drained 79/79, ring reset
+[19:58:40] 20709 22171 I UsbAudioOutput: Destroy: 0 frames total
+[19:58:40] 20709 22171 I UsbAudioOutput: Create: fd=141 ep=0x01 rate=192000 ch=2 bits=32 maxPkt=384
+[19:58:40] 20709 22171 I UsbAudioOutput: Create: usb speed=3 -> 8000 packets/s, 80 URBs in flight
+[19:58:40] 20709 22171 I UsbAudioOutput: SilenceMode set to 0
+[19:58:40] 20709 22171 I UsbAudioOutput: Start: rate=192000 ch=2 bits=32 ring=80 slots×8pkt fpmf=24.0000 feedback=one-shot
+[19:58:40] 20709 22171 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=192000 ch=2 enc=4
+[19:58:41] 20709 22858 I UsbAudioOutput: nativeWrite #200: 2228 samples, 6147us (6.1ms), inflight=80
+[19:58:41] 20709 22858 I UsbAudioOutput: Write: 192819 frames (~1 sec) inflight=80 fpmf=24.0000 (192000.0 Hz)
+[19:58:41] 20709 20709 I : PLAYBACK_STATE songId=1000004520 title='Mayonaka No Door / Stay With Me [真夜中のドア]' bits=0
+[19:58:41] 20709 22171 I UsbAudioOutput: Flush: frameAccumulator, residual, framesWritten, and framesReaped reset
+[19:58:41] 20709 22171 I UsbAudioOutput: Stop: 0 frames, 80 URBs in flight
+[19:58:41] 20709 22171 I UsbAudioOutput: drainAllUrbs: draining 80 URBs (feedback=idle)...
+[19:58:41] 20709 22171 I UsbAudioOutput: drainAllUrbs: drained 80/80, ring reset
+[19:58:41] 20709 22171 I UsbAudioOutput: Destroy: 0 frames total
+[19:58:41] 20709 22171 I UsbAudioOutput: Create: fd=141 ep=0x01 rate=44100 ch=2 bits=16 maxPkt=192
+[19:58:41] 20709 22171 I UsbAudioOutput: Create: usb speed=3 -> 8000 packets/s, 80 URBs in flight
+[19:58:41] 20709 22171 I UsbAudioOutput: SilenceMode set to 0
+[19:58:41] 20709 22171 I UsbAudioOutput: Start: rate=44100 ch=2 bits=16 ring=80 slots×8pkt fpmf=5.5125 feedback=one-shot
+[19:58:41] 20709 22171 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=44100 ch=2 enc=4
+[19:58:44] 20709 22863 I UsbAudioOutput: nativeWrite #27: 8192 samples, 92651us (92.7ms), inflight=80
+[19:58:43] 20709 22863 I UsbAudioOutput: Write: 90112 frames (~2 sec) inflight=80 fpmf=5.5125 (44100.0 Hz)
+[19:58:44] 20709 22171 I UsbAudioOutput: Flush: frameAccumulator, residual, framesWritten, and framesReaped reset
+[19:58:44] 20709 20709 I : PLAYBACK_STATE songId=1000004521 title='Mayonaka No Door / Stay With Me [真夜中のドア] (Original Club Mix by D.O.I.)' bits=0
+[19:58:44] 20709 22171 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=44100 ch=2 enc=4
+[19:58:45] 20709 22863 I UsbAudioOutput: nativeWrite #43: 8192 samples, 92405us (92.4ms), inflight=80
+[19:58:45] 20709 22863 I UsbAudioOutput: Write: 45056 frames (~1 sec) inflight=80 fpmf=5.5125 (44100.0 Hz)
+[19:58:45] 20709 20709 I : PLAYBACK_STATE songId=1000003469 title='KILLA' bits=0
+[19:58:45] 20709 22171 I UsbAudioOutput: Flush: frameAccumulator, residual, framesWritten, and framesReaped reset
+[19:58:45] 20709 22171 I UsbAudioOutput: Stop: 0 frames, 80 URBs in flight
+[19:58:45] 20709 22863 I UsbAudioOutput: nativeWrite #44: 8192 samples, 70596us (70.6ms), inflight=80
+[19:58:45] 20709 22171 I UsbAudioOutput: drainAllUrbs: draining 80 URBs (feedback=idle)...
+[19:58:45] 20709 22171 I UsbAudioOutput: drainAllUrbs: drained 80/80, ring reset
+[19:58:45] 20709 22171 I UsbAudioOutput: Destroy: 4096 frames total
+[19:58:45] 20709 22171 I UsbAudioOutput: Create: fd=141 ep=0x01 rate=48000 ch=2 bits=16 maxPkt=192
+[19:58:45] 20709 22171 I UsbAudioOutput: Create: usb speed=3 -> 8000 packets/s, 80 URBs in flight
+[19:58:45] 20709 22171 I UsbAudioOutput: SilenceMode set to 0
+[19:58:45] 20709 22171 I UsbAudioOutput: Start: rate=48000 ch=2 bits=16 ring=80 slots×8pkt fpmf=6.0000 feedback=one-shot
+[19:58:46] 20709 22171 D : DECODER_OUTPUT_PCM: mime=audio/raw rate=48000 ch=2 enc=4
+[19:58:58] 20709 22894 I UsbAudioOutput: nativeWrite #593: 2048 samples, 20494us (20.5ms), inflight=80
+[19:58:57] 20709 22894 I UsbAudioOutput: Write: 576512 frames (~12 sec) inflight=80 fpmf=6.0000 (48000.0 Hz)
